@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday, Jesse!</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #ffe0e0, #ffcad4);
+      color: #333;
+      text-align: center;
+    }
+    header {
+      padding: 2rem;
+      background-color: #ff6b81;
+      color: white;
+    }
+    .friend-section {
+      background: white;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      max-width: 600px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .friend-name {
+      font-size: 1.8rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      color: #ff6b81;
+    }
+    .question {
+      font-weight: bold;
+      margin-top: 1rem;
+      color: #555;
+    }
+    .media {
+      margin-top: 1rem;
+    }
+    img, video {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🎉 Happy Birthday, Jesse! 🎉</h1>
+    <p>Here's a surprise page filled with love, laughter, and memories from your friends 💖</p>
+  </header>
+
+  <!-- Friend 1 -->
+  <div class="friend-section">
+    <div class="friend-name">Sophia</div>
+    <div class="question">When did you and Jesse first meet?</div>
+    <p>We met in 8th grade when we were both new to school and instantly clicked!</p>
+
+    <div class="question">Your favorite memory together?</div>
+    <p>When we built a pillow fort and binge-watched movies all night. Best sleepover ever!</p>
+
+    <div class="question">How well do you know Jesse?</div>
+    <p>Very well! I even know her favorite ice cream flavor is mint chocolate chip and her secret talent is beatboxing.</p>
+
+    <div class="media">
+      <img src="https://via.placeholder.com/500x300?text=Sophia+%26+Jesse" alt="Photo with Jesse">
+      <p>📸 From our high school talent show day!</p>
+    </div>
+  </div>
+
+  <!-- Friend 2 -->
+  <div class="friend-section">
+    <div class="friend-name">Daniel</div>
+    <div class="question">When did you and Jesse first meet?</div>
+    <p>First day of college orientation! We were both lost and ended up finding the cafeteria together 😂</p>
+
+    <div class="question">Your favorite memory together?</div>
+    <p>The road trip to the beach — we got sunburned but had the best playlist blasting all the way.</p>
+
+    <div class="question">How well do you know Jesse?</div>
+    <p>She's always singing in the shower, obsessed with sushi, and cries during animal rescue videos.</p>
+
+    <div class="media">
+      <video controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p>🎥 A birthday shoutout from me to Jesse!</p>
+    </div>
+  </div>
+
+  <!-- Friend 3 -->
+  <div class="friend-section">
+    <div class="friend-name">Lily</div>
+    <div class="question">When did you and Jesse first meet?</div>
+    <p>At summer camp! We were bunkmates and became instant besties after one game of truth or dare.</p>
+
+    <div class="question">Your favorite memory together?</div>
+    <p>Cooking dinner together and accidentally setting off the fire alarm. We laughed so hard we cried!</p>
+
+    <div class="media">
+      <img src="https://via.placeholder.com/500x300?text=Summer+Camp+Fun" alt="Jesse and Lily at camp">
+      <p>📸 Campfire nights and marshmallows 🍡</p>
+    </div>
+  </div>
+</body>
+</html>
